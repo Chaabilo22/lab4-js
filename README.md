@@ -1,8 +1,7 @@
 Group members
 1. Chaabilo Lubobya
 2. Patricia Kashweka
-Completed features
-Completed Features  
+Completed features  
 1. Theme Toggle (Light/Dark Mode) 
    - Added a button to switch between themes using `classList.toggle()`.  
    - Test by clicking the "Switch Theme" button on `index.html`.  
