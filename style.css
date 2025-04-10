@@ -1,3 +1,9 @@
+/* Dark theme styles (outside of the media query) */
+.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
 /* Base Styles */
 * {
     margin: 0;
@@ -225,11 +231,6 @@ footer {
         padding: 1rem;
     }
 
-    .dark-theme {
-        background-color: #121212;
-        color: #f0f0f0;
-    }
-    
     .answer {
         display: none;
     }
@@ -237,4 +238,11 @@ footer {
         display: block;
     }
     
+}
+
+/* Dark theme overrides */
+.dark-theme .intro,
+.dark-theme .sidebar {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
 }
