@@ -1,8 +1,17 @@
-/* Dark theme styles (outside of the media query) */
+/* Dark theme styles*/
 .dark-theme {
     background-color: #121212;
     color: #f0f0f0;
 }
+
+.answer {
+    display: none;
+  }
+  
+  .answer.visible {
+    display: block;
+  }
+  
 
 /* Base Styles */
 * {
@@ -229,13 +238,6 @@ footer {
     
     .contact-form {
         padding: 1rem;
-    }
-
-    .answer {
-        display: none;
-    }
-    .answer.visible {
-        display: block;
     }
     
 }
